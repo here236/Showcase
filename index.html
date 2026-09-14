@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexandre Paiva Fontes — Desenvolvedor Web, Software & Games</title>
+<meta name="description" content="Portfólio de Alexandre Paiva Fontes, desenvolvedor em formação em Análise e Desenvolvimento de Sistemas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-mark" href="#top">~/alexandre.fontes</a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#trajetoria">Trajetória</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-grid">
+    <div>
+      <p class="hero-location">Carapicuíba, São Paulo — Brasil</p>
+      <h1 class="hero-name">Alexandre Paiva Fontes</h1>
+      <p class="hero-role">Desenvolvedor Web, Software &amp; Games</p>
+      <p class="hero-desc">Estudante de Análise e Desenvolvimento de Sistemas construindo projetos reais em JavaScript, React Native, Node.js e Kotlin — com um interesse crescente em segurança de sistemas e no desenvolvimento de jogos.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+        <a class="btn btn-ghost" href="mailto:alexandre.fontes03@gmail.com">Falar comigo</a>
+      </div>
+    </div>
+    <div class="terminal" aria-hidden="true">
+      <div class="terminal-bar">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="terminal-title">sobre-mim.sh</span>
+      </div>
+      <div class="terminal-body" id="terminalBody"></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="sobre">
+  <h2 class="block-title">Sobre</h2>
+  <div class="about-text">
+    <p>Sou desenvolvedor em formação, com <strong>experiência prática em projetos pessoais e acadêmicos</strong> de desenvolvimento web, software e jogos. Trabalho principalmente com JavaScript, React Native, Node.js e Kotlin, além de bancos de dados relacionais e programação orientada a objetos.</p>
+    <p>Atualmente curso <strong>Análise e Desenvolvimento de Sistemas (Tecnólogo)</strong> na Fatec de Carapicuíba, com formação técnica já concluída na mesma área pela Etec de Carapicuíba. Tenho interesse ativo em <strong>segurança de sistemas</strong>, com certificações complementares na área, e venho estudando <strong>desenvolvimento de jogos</strong> por conta própria.</p>
+    <div class="lang-row">
+      <div class="lang-item"><span class="label">Inglês</span>Fluente</div>
+      <div class="lang-item"><span class="label">Português</span>Nativo</div>
+      <div class="lang-item"><span class="label">Pacote Office</span>Intermediário</div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="stack">
+  <h2 class="block-title">Stack</h2>
+  <p class="block-lede">Ferramentas e conceitos que uso no dia a dia dos projetos.</p>
+  <div class="stack-grid">
+
+    <div class="stack-file">
+      <span class="fname">linguagens.json</span>
+      <div class="chip-row">
+        <span class="chip"><i class="devicon-javascript-plain colored"></i>JavaScript</span>
+        <span class="chip"><i class="devicon-python-plain colored"></i>Python</span>
+        <span class="chip"><i class="devicon-csharp-plain colored"></i>C#</span>
+        <span class="chip"><i class="devicon-kotlin-plain colored"></i>Kotlin</span>
+        <span class="chip">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5.5" rx="8" ry="2.8"/><path d="M4 5.5V12c0 1.5 3.6 2.8 8 2.8s8-1.3 8-2.8V5.5"/><path d="M4 12v6.5c0 1.5 3.6 2.8 8 2.8s8-1.3 8-2.8V12"/></svg>
+          SQL
+        </span>
+      </div>
+    </div>
+
+    <div class="stack-file">
+      <span class="fname">web-mobile.json</span>
+      <div class="chip-row">
+        <span class="chip"><i class="devicon-html5-plain colored"></i>HTML</span>
+        <span class="chip"><i class="devicon-css3-plain colored"></i>CSS</span>
+        <span class="chip"><i class="devicon-react-original colored"></i>React Native</span>
+        <span class="chip"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+      </div>
+    </div>
+
+    <div class="stack-file">
+      <span class="fname">dados.json</span>
+      <div class="chip-row">
+        <span class="chip"><i class="devicon-sqlite-plain colored"></i>SQLite</span>
+        <span class="chip"><i class="devicon-mysql-plain colored"></i>MySQL</span>
+        <span class="chip">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+          Supabase
+        </span>
+        <span class="chip">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M9 9v11"/></svg>
+          Modelagem relacional
+        </span>
+      </div>
+    </div>
+
+    <div class="stack-file">
+      <span class="fname">fundamentos.json</span>
+      <div class="chip-row">
+        <span class="chip">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          POO
+        </span>
+        <span class="chip">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="4" rx="1"/><rect x="3" y="17" width="6" height="4" rx="1"/><rect x="15" y="17" width="6" height="4" rx="1"/><path d="M12 7v5M12 12H6v5M12 12h6v5"/></svg>
+          Lógica de programação
+        </span>
+        <span class="chip">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 10-4-2.5-7-5.5-7-10V6z"/></svg>
+          Redes e segurança
+        </span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="block" id="projetos">
+  <h2 class="block-title">Projetos</h2>
+  <p class="block-lede">Dois projetos que mostram lados diferentes do meu trabalho: sistemas web e desenvolvimento de jogos.</p>
+
+  <div class="project">
+    <div class="project-bar">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      <span class="project-status">projeto final · ETEC</span>
+    </div>
+    <div class="project-body">
+      <h3 class="project-title">ContrataDev</h3>
+      <p class="project-sub">Plataforma web para gestão de perfis de desenvolvedores</p>
+      <ul>
+        <li>Páginas server-rendered com EJS e API REST própria, com endpoints GET, PUT, POST e DELETE.</li>
+        <li>Cadastro, autenticação, stack, senioridade e disponibilidade de cada desenvolvedor.</li>
+        <li>Deploy na Vercel, com testes automatizados de API e ambiente containerizado em Docker.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-nodejs-plain colored"></i>Node.js</span>
+        <span class="tag"><i class="devicon-express-original colored"></i>Express</span>
+        <span class="tag">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+          EJS
+        </span>
+        <span class="tag"><i class="devicon-docker-plain colored"></i>Docker</span>
+        <span class="tag"><i class="devicon-vercel-original"></i>Vercel</span>
+      </div>
+      <a class="project-link" href="https://github.com/here236" target="_blank" rel="noopener">Ver repositórios no GitHub</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-bar">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      <span class="project-status">em desenvolvimento</span>
+    </div>
+    <div class="project-body">
+      <h3 class="project-title">Sustenta</h3>
+      <p class="project-sub">Jogo autoral sobre sustentabilidade</p>
+      <ul>
+        <li>Jogo de plataforma com combate e minigames de lógica.</li>
+        <li>Une meu interesse por desenvolvimento de jogos com fundamentos de lógica de programação.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag"><i class="devicon-godot-plain colored"></i>Godot</span>
+        <span class="tag">
+          <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 4 3 12l5 8M16 4l5 8-5 8M14 4l-4 16"/></svg>
+          GDScript
+        </span>
+      </div>
+      <a class="project-link" href="https://github.com/here236" target="_blank" rel="noopener">Ver repositórios no GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="trajetoria">
+  <h2 class="block-title">Trajetória</h2>
+  <p class="block-lede">Formação e cursos, em ordem cronológica.</p>
+  <div class="changelog">
+    <div class="cl-entry">
+      <div class="cl-date">dez/2025</div>
+      <div class="cl-title">Cyber Academy 2025 (2ª Edição)</div>
+      <div class="cl-meta">Laboratório de Segurança Cibernética da FEBRABAN — 10h</div>
+    </div>
+    <div class="cl-entry milestone">
+      <div class="cl-date">2025 · em andamento</div>
+      <div class="cl-title">Tecnólogo em Análise e Desenvolvimento de Sistemas</div>
+      <div class="cl-meta">Fatec de Carapicuíba</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2025</div>
+      <div class="cl-title">Introdução a Node.js</div>
+      <div class="cl-meta">Venturus — 30h</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2024</div>
+      <div class="cl-title">Endpoint Security</div>
+      <div class="cl-meta">Cisco Networking Academy</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2024</div>
+      <div class="cl-title">Fundamentos de Lógica de Programação (Python)</div>
+      <div class="cl-meta">iTalents — 60h</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2024</div>
+      <div class="cl-title">Processo Criativo e Ideação (UI)</div>
+      <div class="cl-meta">iTalents — 60h</div>
+    </div>
+    <div class="cl-entry milestone">
+      <div class="cl-date">2023 · concluído</div>
+      <div class="cl-title">Ensino Médio Técnico em Análise e Desenvolvimento de Sistemas</div>
+      <div class="cl-meta">Etec de Carapicuíba</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2023</div>
+      <div class="cl-title">Networking Essentials</div>
+      <div class="cl-meta">Cisco Networking Academy</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2023</div>
+      <div class="cl-title">Get Connected</div>
+      <div class="cl-meta">Cisco Networking Academy</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2023</div>
+      <div class="cl-title">Core Skills</div>
+      <div class="cl-meta">iTalents — 60h</div>
+    </div>
+    <div class="cl-entry">
+      <div class="cl-date">2023</div>
+      <div class="cl-title">Meta Spark Studio — Realidade Aumentada</div>
+      <div class="cl-meta">4h</div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="contato">
+  <h2 class="block-title">Contato</h2>
+  <p class="block-lede">Aberto a oportunidades como desenvolvedor júnior, estágio ou projetos em parceria.</p>
+  <div class="contact-grid">
+    <a class="contact-row" href="mailto:alexandre.fontes03@gmail.com">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+      <span class="contact-label">email</span>
+      <span class="contact-value">alexandre.fontes03@gmail.com</span>
+    </a>
+    <a class="contact-row" href="https://linkedin.com/in/alexandre-fontes-9329793a2" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 0 1 4 0V17M12 12.5V17"/></svg>
+      <span class="contact-label">linkedin</span>
+      <span class="contact-value">linkedin.com/in/alexandre-fontes-9329793a2</span>
+    </a>
+    <a class="contact-row" href="https://github.com/here236" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2-.2 4.5-1 4.5-4.5a3.5 3.5 0 0 0-1-2.5 3.2 3.2 0 0 0-.1-2.5s-.9-.3-2.9 1a10 10 0 0 0-5.2 0c-2-1.3-2.9-1-2.9-1a3.2 3.2 0 0 0-.1 2.5 3.5 3.5 0 0 0-1 2.5c0 3.5 2.5 4.3 4.5 4.5-.4.4-.4 1-.5 1.7V19"/></svg>
+      <span class="contact-label">github</span>
+      <span class="contact-value">github.com/here236</span>
+    </a>
+    <a class="contact-row" href="#top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21c4-4.5 7-8 7-11.5A7 7 0 0 0 5 9.5C5 13 8 16.5 12 21z"/><circle cx="12" cy="9" r="2.3"/></svg>
+      <span class="contact-label">local</span>
+      <span class="contact-value">Carapicuíba, São Paulo — Brasil</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Alexandre Paiva Fontes.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
